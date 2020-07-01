@@ -1,0 +1,120 @@
+{"intents": [
+        {"tag": "default",
+         "patterns": ["bnui", "nhjuio", "iopm","nmjuk","iou", "llo", "ay"],
+         "responses": ["Sorry,Not able to understand your question can you please check any spelling mistakes or provide me more relevent keywords and information"]
+        },
+          {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","hi"],
+         "responses": ["Hello, how can I help?", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", " Bye till next time"],
+         "responses": [" Bye! See you  again !", " Bye,Have a nice day ahead", "Bye! Come back again soon."]        
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]        
+        },
+	{"tag": "Components_dust_monitor",
+         "patterns": ["What components should I find when I open the consignment of dust monitor?","Dust Monitor Components"],
+         "responses": ["You should find below components when you open the consignment of Dust Monitor-\n\na) Transceivers along with pre-attached cable- 02 nos.\n\n b) Ball Valves- 02 nos.\n\nc) Air Purge assembly- 02 nos.\n\nd) Mating Flange- 02 nos.\n\ne) Mounting Flange- 02 nos.\n\nf) SPU (Signal Processing Unit)- 01 nos.\n\ng) DDU (Data display Unit)- 01 nos.\n\nh) PSU (Power Supply Unit)- 01 nos.\n\ni) Blower Unit (optional)- 01 nos. If Blower is supplied then item (b) above is Electrical Actuators- 02 nos\n\nj) Inter connecting cables between SPU and DDU\n\nk) Stub Pipe- 3” Dia. (optional)- 02 nos."]
+        },
+        {"tag": "Erection dust monitor pre requisites",
+         "patterns": ["What are the pre requisites for erection of a dust monitor ","Dust monitor erection pre requisties","Dust Monitor erection requirements"],
+         "responses": ["\n\na) The site should be neat and clean, safe for operation.\n\nb) The erection of the holes for attaching the stub pipe should be at chest level\n\nc) Good quality cable tray for laying the cables.\n\nd) Good quality cable tray for laying the cables."]
+        },
+        {"tag": "stub_pipe_length",
+         "patterns": ["How a stub pipe length is decided?","stub pipe length"],
+         "responses": ["The length of the stub pipe is dependent on the type of chimney/ stack/ duct.\nFor metallic stack which does not have fire bricks inside- the stub pipe is usually 200 mm\nFor concrete stack- the stub pipe length is 200 mm+ width of the concrete wall+ width of the air gap+ width of the fire bricks"]        
+        },
+        {"tag": "Erection_dust_monitor_steps",
+         "patterns": ["What are the steps in the erection of a dust monitor ","steps in the erection of a dust monitor ","steps in dust monitor erection"," dust monitor erection steps","Dust Monitor erection Procedure"],
+         "responses": ["\n\na) Select the location for mounting the stub pipe.\n\nb) Make 02 nos. stub pipe of MS having dia of 3”. The length depends on the width of the stack wall.\n\nc)Make 02 nos. stub pipe of MS having dia of 3”. The length depends on the width of the stack wall.\n\nd) Insert the stub pipe in such a way that it protrudes 50 mm inside the stack. Do the same on opposite end. Align the stub pipes exactly apposite to each other with the left of water level/any other suitable tools.\n\ne) Weld/ grout the stub pipes firmly to the stack.\n\nf) Take the mating flange out from the consignment box and weld onto the stub pipe in such a way that the 4 screwed holes comes in square in front of you.\n\ng) Attach the mounting flange to the mating flange with the help of screws provided.\n\nh) Mount air purge onto the mounting flange and tight the bolts in such a way that there is equal gap from all sides.\n\ni) Mount ball valve onto the air purge\n\nj) Mount ball valve onto the air purge\n\nk) Attach the transceivers onto the ball valves.\n\nl) Lay the pre attached cables from the transceivers in the cable tray.\n\nm) Mount the SPU, PSU and DDU at designated locations.\n\nn) Complete the electrical wiring. "]        
+        },
+        {"tag": "commissioning of a dust monitor pre requisites",
+         "patterns": ["What I should ensure before the start of commissioning of a dust monitor?","commissioning of a dust monitor pre requisites","saftey precautions before commissioning of a dust monitor"],
+         "responses": ["Ensure that the instrument air is dry and oil free. Also ensure that the incoming AC supply is from UPS supply and that the earthing is ok."]
+        },
+        {"tag": "commissioning of a dust monitor steps ",
+         "patterns": ["What are the steps in the commissioning of the dust monitor?","steps in the commissioning of a dust monitor ","steps in dust monitor commissioning"," dust monitor commissioning steps","Dust Monitor commissioning Procedure"],
+         "responses": ["\n\na) If all the above steps are ok then power ON the instrument.\n\nb) Open the transceiver and put alignment telescope on the ball valve.\n\nc) Start the alignment and complete it in such a way that the light coming from opposite side sensor falls exactly at the center of alignment telescope.\n\nd) Refit the transceiver and repeat the procedure on opposite side transceiver."]
+        },
+        {"tag": " tools of commissioning of a dust monitor",
+         "patterns": ["What tools generally required for the commissioning of a dust monitor?","tools of commissioning of a dust monitor","what are the tools required for commissioning of a dust monitor","Dust Monitor commissioning tools"],
+         "responses": ["\n\na) Spanners- 10 mm, 17 mm and adjustable screw spanner\n\nb) Alignment telescope\n\nc) Multi meter and tester/ aligner screw driver\n\nd) Screw driver set"]
+        },
+        {"tag": "Alignment",
+         "patterns": ["What is alignment","Alignment meaning","Defination of alignment"],
+         "responses": ["Alignment is the procedure by which the user ensures that the light emitted by one transceiver falls at exactly center of he other"]
+        },
+        {"tag": "alignment_procedure",
+         "patterns": ["How to do the alignment?","how alignment is carried out ","what is alignment procedure","how alinment is done" ],
+         "responses": ["Alignment is carried out with the help of alignment telescope"]
+        },
+        {"tag": " Telescope",
+         "patterns": ["Is the Telescope used for the two versions of the dust monitor are identical?","Is two different versions of the dust monitor  uses identical telescope?"],
+         "responses": ["They are not identical but old version telescope can be used for new version"]
+        },
+        {"tag": "Telescope1",
+         "patterns": ["Telescope used for the two versions of the dust monitor can be used in place of each other","Is the Telescope used for the two versions of the dust monitor are interchangable or interreplacable"],
+         "responses": [" No,new version telescope can not be used for old version."]
+        },
+         {"tag": "standard levels of dust monitor",
+                "patterns": ["What to set once the Dust monitor is powered on", "What are the standard levels to set once the Dust monitor     is powered on","standard levels of dust monitor"],
+                "responses": ["We have to set following levels of the detector\n\nDr1=10000\n\nDr2=10000\n\nDt1=10000\n\nDt2=10000"]
+        },
+        {"tag": "calibration_procedure",
+         "patterns": ["What is calibration of dust monitor","How to perform the calibration of dust monitor","calibration procedure"],
+         "responses": ["The zero calibration is the base calibration of the dust monitor. The zero calibration can be performed in plant shut down condition only. If the plant is running during commissioning of the dust monitor then then user has to do Target calibration which is a rough estimation of the opacity."]
+        },
+        {"tag": "Target_calibration",
+         "patterns": ["What Target should I set for calibration in plant on condition?"],
+         "responses": ["This is an estimation of the probable % opacity inside the stack/ duct. Typically it should be set to 10 % considering the good dust arresting capacities of the modern dust arresting techniques."]
+        },
+        {"tag": "errors_dust_monitor",
+         "patterns": ["What are the common errors observed during the operation of the dust monitor?","errors in operation of  dust monitor","Dust monitor operation errors"],
+         "responses": ["\n\na) Communication (comms0 failure) \n\nb) Dt1/Dt2 low\n\nc) Dt1/Dt2 saturated\n\nd) Valve1/2 closed\n\ne) Misalignment"]
+        },
+        {"tag": "Comms Failure",
+         "patterns": ["How to tackle the error of ‘ Comms Failure’ ?","Comms Failure error solution"],
+         "responses": ["Check the wiring as mentioned in the operating manual.\nIf still not solved then check if there is any loose connections.\nPress the eprom ICs to remove any loose contact\nCheck the Led indication on the comms card"]
+        },
+         
+        
+         {"tag": "Dt1 or Dt2 low / saturated error",
+         "patterns": ["How to tackle the error of Dt1 or Dt2 low / saturated error?","Dt1 or Dt2 low / saturated error solition ","solution of Dt1 or Dt2 low / saturated error"],
+         "responses": ["With the help of potentiometer in the SPU, set these levels to 10000"]
+        },
+         {"tag": "dust monitor_reading",
+         "patterns": ["How to verify the readings of the dust monitor?"],
+         "responses": ["The readings of the dust monitor can be verified by two ways…\n\na) By using the optical filters of particular % of opacity.\n\nb) By doing the iso kinetic sampling and setting the dust factor appropriately."]
+        },
+        {"tag": "dust factor",
+         "patterns": ["What is dust factor? "],
+         "responses": ["Dust factor is the factor which is set inside the instrument after doing the iso kinetic sampling."]
+        },
+        {"tag": "dust factor_1",
+         "patterns": ["What is dust factor? ","How to calulate dust factor","dust factor calutation"],
+         "responses": ["Dust factor is the factor which is set inside the instrument after doing the iso kinetic sampling.\nThis is used to match the sampling results with that of dust monitor."]
+        },
+        {"tag": " iso kinetic sampling?",
+         "patterns": ["What is iso kinetic sampling?","iso kinetic sampling"],
+         "responses": ["Iso kinetic sampling is the method of manual sampling of the flue gas where many parameters of the flue gas are measured such as dust (mg/m3, mg/Nm3), velocity, stack temperature, measurement of concentrations of gases such as Sox/Nox/CO/CO2 etc.\nThis method is approved by many agencies such as USEPA."]
+        },
+        {"tag": " misalignment error ",
+         "patterns": ["What to do if there is misalignment error occurred?","how to handel  misalignment error "," misalignment error "],
+         "responses": ["Misalignment is the difference in the transmissivities of the two transceivers. This can be removed by setting the detector levels of the two transceivers close to each other."]
+        },
+        {"tag": "Dirty optics",
+         "patterns": ["My dust monitor is showing ‘Dirty optics’ what to do","Dirty optics error"],
+         "responses": ["Dirty optics denoted the saturated detector levels. Firstly reset the analyzer and set the detector levels as below.\n\nDr1=10000\nDr2=10000\nDt1=10000\nDt2=10000"]
+        },
+        {"tag": "dust monitor reset",
+         "patterns": ["How to reset the dust monitor.","dust monitor reset"],
+         "responses": ["The dust monitor is resetted by using the hardware reset jumpers provided in the master and slave cards of the SPU.\nThe resetting can be done by following steps.\n\na) In the power on condition- Remove the 2 pin connector provided on the power supply card of the SPU.\n\nb) Short the link named ‘ LK1’  provided on master card and at the same time Short the link named ‘ LK2’ provided on slave card.\n\nc) Put the 2 pin connector back.\n\nd) Wait for 5 sec.\n\ne) Remove the 2 pin connector again.\n\nf) Short the link named ‘ LK2’  provided on slave card\n\ng) Put the 2 pin connector back.\nh) Wait for 5 sec.\n\ni) Remove the 2 pin\n\nj) Remove the short connector again.\nk) Put the 2 pin connector again."]
+        }
+
+
+       
+   ]
+}
